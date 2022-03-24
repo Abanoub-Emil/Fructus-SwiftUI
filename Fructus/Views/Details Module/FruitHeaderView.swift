@@ -25,7 +25,7 @@ struct FruitHeaderView: View {
                 .padding(.vertical, 20)
                 .scaleEffect(isAnimatingImage ? 1.0 : 0.6)
         }.onAppear() {
-            withAnimation(.easeOut(duration: 0.5)) {
+            withAnimation(.easeOut(duration: 0.75)) {
                 isAnimatingImage = true
             }
         }
